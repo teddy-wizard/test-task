@@ -17,6 +17,23 @@ I developed the following 6 react component for this front-end.
 * [footer.js](front-end/src/components/footer.js)
 * [card.js](front-end/src/components/atoms/card.js)
 
+From requirements, all data of website is fetched from * [landscapes.json](front-end/static/data/landscapes.json) by using axios when loading page.(layout.js)
+```javascript
+const getData=()=>{
+    axios.get('/data/landscapes.json', {
+      headers : {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+        }
+    })
+    .then(function (response) {
+      setProfileData(response.data);
+    })
+    .catch(function (error) {
+        console.log(error)
+    });
+  }
+```
 
 ## Back End Part(Laravel)
 * [How to run](back-end/README.md)
