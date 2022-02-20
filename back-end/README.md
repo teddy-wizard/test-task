@@ -2,7 +2,6 @@
 
 From your command line, clone and run back-end:
 
-```bash
 # Clone this repository
 ```bash
 $ git clone https://github.com/teddy-wizard/test-task.git
@@ -44,8 +43,6 @@ $ php artisan serve
 | POST     | /user | store | users:create | Create a photographer
 | PUT      | /user/{user_id} | update | users:write | Update a photographer
 | DELETE      | /user/{user_id} | destroy | users:delete | Delete an photographer
-| ----- | ----- | ----- | ---- |------------- |
-| HTTP Method	| Path | Action | Scope | Desciption  |
 | ----- | ----- | ----- | ---- |------------- |
 | GET      | /album/{user_id} | index | users:list | Get all albums of a photographer
 | GET      | /album/{id} | index | users:list | Get an album
