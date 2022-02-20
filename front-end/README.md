@@ -2,17 +2,23 @@
 
 From your command line, clone and run front-end:
 
+### Clone this repository
 ```bash
-# Clone this repository
 $ git clone https://github.com/teddy-wizard/test-task.git
+```
 
-# Go into the repository
+### Go into the repository
+```bash
 $ cd test-task/front-end
+```
 
-# Install dependencies
+### Install dependencies
+```bash
 $ yarn
+```
 
-#Start's development server
+### Start's development server
+```bash
 $ yarn start
 ```
 

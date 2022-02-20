@@ -2,34 +2,34 @@
 
 From your command line, clone and run back-end:
 
-# Clone this repository
+### Clone this repository
 ```bash
 $ git clone https://github.com/teddy-wizard/test-task.git
 ```
 
-# Go into the repository
+### Go into the repository
 ```bash
 $ cd test-task/back-end
 ```
 
-# Install dependencies
+### Install dependencies
 ```bash
 $ composer install
 ```
 
-# Create database in mysql
+### Create database in mysql
 ```bash
 mysql> CREATE DATABASE test;
 ```
 
-# Set database username and password in env file
+### Set database username and password in env file
 
-# Migrate database
+### Migrate database
 ```bash
 $ php artisan migrate --seed
 ```
 
-#Start's development server
+### Start's development server
 ```bash
 $ php artisan serve
 ```
