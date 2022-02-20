@@ -86,3 +86,12 @@ I developed the following RESTful apis for photographers and albums.
 | POST     | /album/{user_id} | Create an album
 | PUT      | /album/{id} | Update an album
 | DELETE      | /album/{id} | Delete an album
+
+**- Controllers**
+* [UserController.php](back-end/app/Http/Controllers/UserController.php)
+* [AlbumController.php](back-end/app/Http/Controllers/AlbumController.php)
+
+**- Models**
+* [User.php](back-end/app/User.php)
+* [Album.php](back-end/app/Album.php)
+
