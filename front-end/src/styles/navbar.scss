@@ -1,0 +1,33 @@
+.navbar-wrapper {
+    width: 90vw;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .name {
+      font-weight: 600;
+      font-size: 35px;
+    }
+    .links-wrapper {
+      button {
+        text-decoration: none;
+        padding: 10px;
+        font-family: "Open Sans";
+        opacity: 0.6;
+        transition: all 0.2s ease-in-out;
+        font-size: 17px;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        border: 0px;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .active {
+        color: black;
+      }
+    }
+  }
