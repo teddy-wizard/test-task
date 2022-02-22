@@ -6,6 +6,7 @@ This project is a skill test project for Full Stack Web Developer.
 ### Development Framework
 **React.js** - React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications.
 I choose a this framework because React allows to create a web app more fast, more scalable, and more simple. Also, I have used React framework as frontend on many projects.
+
 **Gatsby.js** - Gatsby does the data sourcing and the fetches the files during the build time itself. I often use for speed and plugins, SEO.
 
 ### Development Process
@@ -44,6 +45,7 @@ const getData=()=>{
 ### Development Process
 **- Database Design**
 Based on * [landscapes.json](front-end/static/data/landscapes.json), I designed the following 2 tables - users and albums.
+
 users - a table for information of photographers
 ```php
 Schema::create('users', function (Blueprint $table) {
